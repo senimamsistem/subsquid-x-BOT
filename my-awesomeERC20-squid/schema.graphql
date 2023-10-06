@@ -1,0 +1,13 @@
+type Transaction @entity {
+
+  id: ID!
+
+  token: String!
+
+  amount: BigInt!
+
+  from: String!
+
+  recipient: String!
+
+}
